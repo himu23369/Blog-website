@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+    <h1><b>Compose</b></h1>
+
+    <form action="/compose" method="post">
+
+        <div class="form-group">
+            <label>Title</label>
+            <br>
+            <input type="text" class="form-control" name="Title">
+            <br>
+            <label>Post</label>
+            <textarea name="freeform" class="form-control" rows="5" cols="165"></textarea>
+            <!-- inorder to add multiline comments -->
+            <br>
+            <button type="submit" class="btn btn-primary" name="button">Publish</button>
+        </div>
+        <!-- <input type="text" name="inputText" placeholder="Enter your text"> -->
+    </form>
+
+    <%- include("partials/footer") %>
