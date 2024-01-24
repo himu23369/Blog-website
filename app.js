@@ -57,7 +57,6 @@ app.post("/compose", function (req, res) {
       res.redirect("/");
     }
   });
-
 });
 
 app.get("/posts/:id", function (req, res) {
